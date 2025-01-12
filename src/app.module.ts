@@ -14,7 +14,7 @@ import { StudentModule } from './student/student.module';
       password: '',
       database: 'arynedb', // database name
       autoLoadEntities: true,
-      synchronize: false,
+      synchronize: true,
     }),
     StudentModule,
   ],
